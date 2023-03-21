@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node distr/app.js",
+    "start": "node server.js",
     "build": "webpack -d eval-source-map && babel src --copy-files --out-dir distr",
     "dev": "nodemon app.js --ignore session --ext js,jsx,json",
     "test": "jest",
